@@ -1,0 +1,6 @@
+finding_id,cve,cvss,severity,asset,asset_criticality,internet_exposed,kev,exploit_maturity,compensating_controls,owner
+F-1001,CVE-2099-1001,9.8,CRITICAL,edge-api-01,5,true,true,weaponized,waf;edr,platform-security
+F-1002,CVE-2099-1002,8.1,HIGH,finance-app-02,5,false,false,functional,network segmentation;edr,finance-platform
+F-1003,CVE-2099-1003,7.5,HIGH,internal-batch-01,2,false,false,poc,network segmentation,batch-services
+F-1004,CVE-2099-1004,6.5,MEDIUM,legacy-web-03,4,true,false,functional,waf,unassigned
+F-1005,CVE-2099-1005,4.3,MEDIUM,dev-tool-07,1,false,false,none,edr,developer-experience
